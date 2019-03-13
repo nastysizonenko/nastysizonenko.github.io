@@ -1,0 +1,52 @@
+body{
+    display: grid;
+    grid-column: 1/3;
+
+}
+.header{
+    color: black;
+    font-family: Segoe;
+    background-color: yellow;
+}
+span{
+    color:red;
+    font-family: Segoe;
+font-size: 50px;
+}
+.top{
+		display:flex;
+		flex-direction: row;
+		background:#ffcc00;
+
+	}
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+ul{
+    border: 4px solid red;
+    background-color: #ffcc00;
+
+}
+h2,li{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+h1{
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+}
+.end{
+  height: 40px;
+		display:flex;
+		flex-direction: row-reverse;
+		background:#ffcc00;
+    justify-content:space-between;
+	}
+
+
+  .pict{
+    width:150px;
+	height: 40px;
+  }
